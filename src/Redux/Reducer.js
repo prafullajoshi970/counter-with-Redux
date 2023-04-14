@@ -9,7 +9,7 @@ const myReducer=(StoreData=initialCount,action)=>{
         return initialCount-=1
       }
       else if(action.type==="reset"){
-        return initialCount*0
+        return initialCount=0
       }
     return StoreData;
 
